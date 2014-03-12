@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <style>
+      #categories {
+          width: 200px;
+          margin: 0 20px 0 10px;
+          float: left;
+          display: block;
+          border-right: 2px solid gold;
+      }
+
+      #container {
+          float: left;
+          width: 50%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul id="categories">
+      <li><a href="example1.html" data-pjax>Test1</a></li>
+      <li><a href="example2.html" data-pjax>Test2</a></li>
+    </ul>
+    <div id="container">
+      I am a container...
+    </div>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.pjax/1.7.0/jquery.pjax.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+    <script src="pjax-backbone-view.js"></script>
+    <script src="pjax-backbone-example.js"></script>
+  </body>
+</html>
